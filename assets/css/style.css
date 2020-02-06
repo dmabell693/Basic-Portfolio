@@ -1,0 +1,40 @@
+body {
+    background-image: url("assets/images/stressed_linen/stressed_linen.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 960px;
+}
+
+nav {
+    float: right;
+}
+
+main {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+}
+
+footer {
+    background-color: #666666;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#primary header {
+    background-color: #4aaaa5;
+}
+
+#teal header {
+    color: turquoise;
+}
+
+#main content {
+    float: right;
+}
