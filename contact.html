@@ -10,40 +10,46 @@
 <body>
    
     <header>
-        <div>
+        <div class="top-container">
             <h1>Daniel Abell</h1>
             <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a id="left-nav" href="index.html">About</a>
+                <a id="center-nav" href="contact.html">Contact</a>
+                <a id="right-nav" href="portfolio.html">Portfolio</a>
             </nav>
-        </div> 
+        </div>
     </header>
 
     <main class="container">
         <h2>Contact</h2>
         
         <form>
-            Name
-            <br>
-            <input type="text">
-            <br>
+            <div>
+                <label for="input-name">Name</label>
+                <br>
+                <input id="input-name" type="text" maxlength="100" name="user_name" placeholder="John Smith">
+                <br>
+            </div>
 
-            Email
-            <br>
-            <input type="text">
-            <br>
+            <div>
+                <label for="input-email">Email</label>
+                <br>
+                <input id="input-email" type="text" maxlength="100" name="user_email" placeholder="example@gmail.com">
+                <br>
+            </div>
 
-            Message
-            <br>
-            <input type="text" maxlength="500">
-            <br>
+            <div>
+                <label for="input-message">Message</label>
+                <br>
+                <textarea id="input-message" maxlength="500"></textarea>
+                <br>
+            </div>
             <button>Submit</button>
         </form>
     </main>
 
     <footer>
-
+        placeholder text
     </footer>
 
 </body>
