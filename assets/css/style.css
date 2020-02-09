@@ -41,6 +41,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: #4cc29a;
+}
+
 main {
     background-color: #ffffff;
     width: 960px;
@@ -68,7 +72,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
 
 .top-container {
@@ -88,7 +92,7 @@ footer {
 }
 
 #left-nav {
-    padding-right: 20px;
+    padding: 0 20px;
     border-right: 1px solid #cccccc;
 }
 
@@ -98,14 +102,14 @@ footer {
 }
 
 #right-nav {
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 #about-me {
     float: left;
 }
 
-#petra-pic {
+#profile-pic {
     float: left;
     margin-right: 20px;
 }
@@ -124,6 +128,10 @@ button {
     color: #ffffff;
     padding: 10px 30px;
     font-size: medium;
+}
+
+button:hover {
+    background-color: #4cc29a;
 }
 
 #input-message {
