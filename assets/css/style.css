@@ -1,40 +1,107 @@
 body {
-    background-image: url("assets/images/stressed_linen/stressed_linen.jpg");
+    background-image: url("../images/gravel/gravel.png");
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #ffffff;
-    border-color: #cccccc;
+    border-bottom: 2px solid #cccccc;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div {
     width: 960px;
-}
-
-nav {
-    float: right;
-}
-
-main {
-    background-color: #ffffff;
-    border-color: #dddddd;
-    width: 960px;
-}
-
-footer {
-    background-color: #666666;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#primary header {
+    font-size: x-large;
     background-color: #4aaaa5;
+    color: #ffffff;
+    width: fit-content;
+    margin: 0;
+    padding: 20px;
 }
 
-#teal header {
-    color: turquoise;
-}
-
-#main content {
+nav {
+    color: #777777;
+    width: fit-content;
     float: right;
+    position: relative;
+    bottom: 44px;
+}
+
+a {
+    color: #777777;
+    font-style: normal;
+    text-decoration: none;
+}
+
+main {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 5px solid #4aaaa5;
+}
+
+.top-container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.container {
+    width: 960px;
+    height: 560px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: auto;
+    line-height: 30px;
+    overflow: scroll;
+}
+
+#left-nav {
+    padding-right: 20px;
+    border-right: 1px solid #cccccc;
+}
+
+#center-nav {
+    padding: 0 20px;
+    border-right: 1px solid #cccccc;
+}
+
+#right-nav {
+    padding-left: 20px;
+}
+
+#about-me {
+    float: left;
+}
+
+#petra-pic {
+    float: left;
+    margin-right: 20px;
 }
