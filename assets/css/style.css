@@ -41,8 +41,20 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #4aaaa5;
+}
+
 a:hover {
-    background-color: #4cc29a;
+    color: #4882b8;
+}
+
+a:active {
+    color: #48b873;
 }
 
 main {
@@ -82,7 +94,6 @@ footer {
 
 .container {
     width: 960px;
-    height: 560px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -131,7 +142,8 @@ button {
 }
 
 button:hover {
-    background-color: #4cc29a;
+    color: #ffffff;
+    background-color: #4882b8;
 }
 
 #input-message {
@@ -153,9 +165,9 @@ button:hover {
     float: left;
 }
 
-.portfolio-images {
-    width: 300px;
-    height: 250px;
+.hover-outline:hover {
+    outline: 5px solid #4882b8;
+    outline-offset: 5px;
 }
 
 h3 {
@@ -168,4 +180,8 @@ h3 {
     padding: 15px 0;
     position: relative;
     bottom: 100px;
+}
+
+h3:hover {
+    background-color: #4882b8;
 }
